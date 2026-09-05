@@ -1,0 +1,6 @@
+{
+  "name": "Dastarkhan Restaurant & Banquet Hall",
+  "description": "Sylhet's premier destination for fine dining and majestic celebrations in Osmaninagar. Traditional Flavors, Modern Elegance, and All-Inclusive Banquet Package Builder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
