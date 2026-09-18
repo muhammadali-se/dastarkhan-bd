@@ -76,7 +76,7 @@ export default function App() {
   return (
     <div className="site-shell">
       <header className="topbar">
-        <a className="brand" href="#top" onClick={() => goTo('top')}><img className="brand-logo" src="/brand-assets/dastarkhan-logo.png" alt="Dastarkhan Restaurant and Banquet Hall" /></a>
+        <a className="brand" href="#top" onClick={() => goTo('top')}><img className="brand-logo" src="/brand-assets/dastarkhan-logo-header.png" alt="Dastarkhan Restaurant and Banquet Hall" /></a>
         <nav className={mobileOpen ? 'nav-links open' : 'nav-links'} aria-label="Main navigation">
           <button onClick={() => goTo('order')}>Order food</button><button onClick={() => goTo('menu')}>Menu</button><button onClick={() => goTo('banquet')}>Banquet</button><a className="nav-call" href={`tel:${PHONE}`}><Phone size={15} /> Call now</a>
         </nav>
